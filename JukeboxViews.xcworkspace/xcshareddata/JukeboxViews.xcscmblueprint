@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B2DBC4E4ADC3E95872FD2E19ECC58A650E8C3FA0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B2DBC4E4ADC3E95872FD2E19ECC58A650E8C3FA0" : 0,
+    "DB0824723C98797678775F0627D83DEE5FB94DE7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F644CB5E-E9FB-4E6B-ADF4-2A5A56E0D05C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B2DBC4E4ADC3E95872FD2E19ECC58A650E8C3FA0" : "jukebox-views-ios-0616\/",
+    "DB0824723C98797678775F0627D83DEE5FB94DE7" : "..\/..\/Development\/MarqueeLabel"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JukeboxViews",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JukeboxViews.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ellscha\/jukebox-views-ios-0616.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2DBC4E4ADC3E95872FD2E19ECC58A650E8C3FA0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ellscha\/MarqueeLabel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB0824723C98797678775F0627D83DEE5FB94DE7"
+    }
+  ]
+}

@@ -10,7 +10,12 @@
 		4D3CF0901D1ABE7400B09BF5 /* FISSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF08F1D1ABE7400B09BF5 /* FISSong.m */; };
 		4D3CF0931D1ABE8300B09BF5 /* FISPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF0921D1ABE8300B09BF5 /* FISPlaylist.m */; };
 		4D3CF0961D1AD91800B09BF5 /* FISJukeboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF0951D1AD91800B09BF5 /* FISJukeboxViewController.m */; };
+		4D3CF0991D1B205500B09BF5 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF0981D1B205500B09BF5 /* MarqueeLabel.m */; };
+		4D3CF09B1D1B206D00B09BF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3CF09A1D1B206D00B09BF5 /* QuartzCore.framework */; };
 		4D3DF6411BC4116A0047AB5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6401BC4116A0047AB5C /* Launch Screen.storyboard */; };
+		4D8F837F1D1B2273000D3D9D /* MarqueeLabel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F837E1D1B2273000D3D9D /* MarqueeLabel.podspec */; };
+		4D8F83811D1B2E96000D3D9D /* jukbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F83801D1B2E96000D3D9D /* jukbox.jpg */; };
+		4D8F83831D1B3393000D3D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F83821D1B3393000D3D9D /* Assets.xcassets */; };
 		72DD191419A66296004F3C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD191319A66296004F3C2F /* Foundation.framework */; };
 		72DD191619A66296004F3C2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD191519A66296004F3C2F /* CoreGraphics.framework */; };
 		72DD191819A66296004F3C2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD191719A66296004F3C2F /* UIKit.framework */; };
@@ -18,7 +23,6 @@
 		72DD192019A66296004F3C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD191F19A66296004F3C2F /* main.m */; };
 		72DD192419A66296004F3C2F /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD192319A66296004F3C2F /* FISAppDelegate.m */; };
 		72DD192719A66296004F3C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD192519A66296004F3C2F /* Main.storyboard */; };
-		72DD192C19A66296004F3C2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DD192B19A66296004F3C2F /* Images.xcassets */; };
 		72DD193319A66296004F3C2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD193219A66296004F3C2F /* XCTest.framework */; };
 		72DD193419A66296004F3C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD191319A66296004F3C2F /* Foundation.framework */; };
 		72DD193519A66296004F3C2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD191719A66296004F3C2F /* UIKit.framework */; };
@@ -56,7 +60,13 @@
 		4D3CF0921D1ABE8300B09BF5 /* FISPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylist.m; sourceTree = "<group>"; };
 		4D3CF0941D1AD91800B09BF5 /* FISJukeboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISJukeboxViewController.h; sourceTree = "<group>"; };
 		4D3CF0951D1AD91800B09BF5 /* FISJukeboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISJukeboxViewController.m; sourceTree = "<group>"; };
+		4D3CF0971D1B205500B09BF5 /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarqueeLabel.h; path = ../../../../Development/MarqueeLabel/Sources/ObjC/MarqueeLabel.h; sourceTree = "<group>"; };
+		4D3CF0981D1B205500B09BF5 /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarqueeLabel.m; path = ../../../../Development/MarqueeLabel/Sources/ObjC/MarqueeLabel.m; sourceTree = "<group>"; };
+		4D3CF09A1D1B206D00B09BF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4D3DF6401BC4116A0047AB5C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4D8F837E1D1B2273000D3D9D /* MarqueeLabel.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MarqueeLabel.podspec; path = Pods/../../../../Development/MarqueeLabel/MarqueeLabel.podspec; sourceTree = "<group>"; };
+		4D8F83801D1B2E96000D3D9D /* jukbox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jukbox.jpg; sourceTree = "<group>"; };
+		4D8F83821D1B3393000D3D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		72DD191019A66296004F3C2F /* JukeboxViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukeboxViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DD191319A66296004F3C2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72DD191519A66296004F3C2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,7 +78,6 @@
 		72DD192219A66296004F3C2F /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		72DD192319A66296004F3C2F /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		72DD192619A66296004F3C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		72DD192B19A66296004F3C2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		72DD193119A66296004F3C2F /* JukeboxViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukeboxViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DD193219A66296004F3C2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		72DD193A19A66296004F3C2F /* JukeboxViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JukeboxViewsTests-Info.plist"; sourceTree = "<group>"; };
@@ -93,6 +102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72DD195F19AE35DE004F3C2F /* AVFoundation.framework in Frameworks */,
+				4D3CF09B1D1B206D00B09BF5 /* QuartzCore.framework in Frameworks */,
 				72DD191619A66296004F3C2F /* CoreGraphics.framework in Frameworks */,
 				72DD191819A66296004F3C2F /* UIKit.framework in Frameworks */,
 				72DD191419A66296004F3C2F /* Foundation.framework in Frameworks */,
@@ -121,6 +131,7 @@
 				2E91078E3124F851093D1992 /* Pods-JukeboxViews.release.xcconfig */,
 				2D43B22DECA1F84248B8C81D /* Pods-JukeboxViewsTests.debug.xcconfig */,
 				DFFEA2A49C19E6C4A9F76DBC /* Pods-JukeboxViewsTests.release.xcconfig */,
+				4D8F837E1D1B2273000D3D9D /* MarqueeLabel.podspec */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -148,6 +159,7 @@
 		72DD191219A66296004F3C2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D3CF09A1D1B206D00B09BF5 /* QuartzCore.framework */,
 				72DD195E19AE35DE004F3C2F /* AVFoundation.framework */,
 				72DD191319A66296004F3C2F /* Foundation.framework */,
 				72DD191519A66296004F3C2F /* CoreGraphics.framework */,
@@ -166,12 +178,15 @@
 				72DD192319A66296004F3C2F /* FISAppDelegate.m */,
 				72DD192519A66296004F3C2F /* Main.storyboard */,
 				4D3CF08E1D1ABE7400B09BF5 /* FISSong.h */,
+				4D8F83821D1B3393000D3D9D /* Assets.xcassets */,
 				4D3CF08F1D1ABE7400B09BF5 /* FISSong.m */,
 				4D3CF0911D1ABE8300B09BF5 /* FISPlaylist.h */,
 				4D3CF0921D1ABE8300B09BF5 /* FISPlaylist.m */,
+				4D3CF0971D1B205500B09BF5 /* MarqueeLabel.h */,
+				4D3CF0981D1B205500B09BF5 /* MarqueeLabel.m */,
 				4D3CF0941D1AD91800B09BF5 /* FISJukeboxViewController.h */,
 				4D3CF0951D1AD91800B09BF5 /* FISJukeboxViewController.m */,
-				72DD192B19A66296004F3C2F /* Images.xcassets */,
+				4D8F83801D1B2E96000D3D9D /* jukbox.jpg */,
 				4D3DF6401BC4116A0047AB5C /* Launch Screen.storyboard */,
 				72DD191A19A66296004F3C2F /* Supporting Files */,
 			);
@@ -273,9 +288,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FIS;
+				KnownAssetTags = (
+					v,
+				);
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = FIS;
 				TargetAttributes = {
+					72DD190F19A66296004F3C2F = {
+						DevelopmentTeam = 6G975A787V;
+					};
 					72DD193019A66296004F3C2F = {
 						TestTargetID = 72DD190F19A66296004F3C2F;
 					};
@@ -305,15 +326,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72DD192C19A66296004F3C2F /* Images.xcassets in Resources */,
+				4D8F83811D1B2E96000D3D9D /* jukbox.jpg in Resources */,
 				72DD195819A66AEE004F3C2F /* mo_money_mo_problems.mp3 in Resources */,
 				72DD195719A66AEE004F3C2F /* higher_love.mp3 in Resources */,
 				72DD195919A66AEE004F3C2F /* old_thing_back.mp3 in Resources */,
 				72DD195A19A66AEE004F3C2F /* gangsta_bleeding_love.mp3 in Resources */,
+				4D8F837F1D1B2273000D3D9D /* MarqueeLabel.podspec in Resources */,
 				72DD191E19A66296004F3C2F /* InfoPlist.strings in Resources */,
 				72DD195619A66AEE004F3C2F /* hold_on_be_strong.mp3 in Resources */,
 				72DD195D19A66F3A004F3C2F /* bailando.mp3 in Resources */,
 				4D3DF6411BC4116A0047AB5C /* Launch Screen.storyboard in Resources */,
+				4D8F83831D1B3393000D3D9D /* Assets.xcassets in Resources */,
 				72DD192719A66296004F3C2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +454,7 @@
 				72DD192419A66296004F3C2F /* FISAppDelegate.m in Sources */,
 				4D3CF0901D1ABE7400B09BF5 /* FISSong.m in Sources */,
 				4D3CF0961D1AD91800B09BF5 /* FISJukeboxViewController.m in Sources */,
+				4D3CF0991D1B205500B09BF5 /* MarqueeLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +581,15 @@
 			baseConfigurationReference = F99359CEBA7E4BAE926862F8 /* Pods-JukeboxViews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JukeboxViews/JukeboxViews-Prefix.pch";
 				INFOPLIST_FILE = "JukeboxViews/JukeboxViews-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -572,12 +599,15 @@
 			baseConfigurationReference = 2E91078E3124F851093D1992 /* Pods-JukeboxViews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JukeboxViews/JukeboxViews-Prefix.pch";
 				INFOPLIST_FILE = "JukeboxViews/JukeboxViews-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -101,7 +101,8 @@
 
 -(FISSong *)songForTrackNumber:(NSUInteger)trackNumber{
     if ((trackNumber == 0) || trackNumber > self.songs.count) {
-        return nil;
+        FISSong *notASong = [[FISSong alloc]initWithTitle:@"" artist:@"" album:@"" fileName:@""];
+        return notASong;
     }
     return self.songs[trackNumber -1];
 }

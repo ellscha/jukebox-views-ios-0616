@@ -292,6 +292,7 @@
 		4C6364B7499D05BBCF1FE73D7F3A1D9C /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
 		4CF85FAA74AE702A14EAE5BE3A653F2D /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		4D400D22CEBA4ED8FC80FF698188FE10 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
+		4D8F837D1D1B2259000D3D9D /* MarqueeLabel.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MarqueeLabel.podspec; path = ../../../../Development/MarqueeLabel/MarqueeLabel.podspec; sourceTree = "<group>"; };
 		4EB7E5A33CCABD21CD59CA6A6421329F /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
 		4F394D8C874EADD40638F9DBFD38364D /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		4F5C2F9F1820B421BD38BECEA288C338 /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
@@ -533,6 +534,7 @@
 		2997D0D046272F76E82201AF0665F9D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				4D8F837D1D1B2259000D3D9D /* MarqueeLabel.podspec */,
 				89A064B45F6DA8EDA5C91F77488026E5 /* Expecta */,
 				99FC5F2D78A50E84AFC12CB61355ECA9 /* KIF */,
 				29497C3EECDE6AE3F701DFEECE3C8229 /* Specta */,
